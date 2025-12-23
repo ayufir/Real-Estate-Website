@@ -1,0 +1,32 @@
+.section {
+  padding: 120px 80px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 100px 20px;
+  }
+}
+
+* {
+  cursor: none !important;
+}
+
+
+.estate-panel {
+  will-change: transform;
+}
+
+.estate-image {
+  will-change: transform;
+}
+
+
+* {
+  cursor: none;
+}
+
+a:hover ~ .cursor,
+button:hover ~ .cursor {
+  transform: scale(1.6);
+}
