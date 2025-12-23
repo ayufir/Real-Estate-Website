@@ -375,7 +375,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-6">Explore</h3>
 
           <ul className="space-y-4 text-lg opacity-80">
-            {["Home", "Properties", "About", "Contact"].map((item) => (
+            {["Home", "Properties", "About", "Contact", "Projects"].map((item) => (
               <li key={item}>
                 <a
                   href={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
